@@ -20,6 +20,8 @@ namespace DefaultNamespace
         private ObjectColor objectColor;
         private Collectibles collectibleNumber;
         
+        
+        
         private void Awake()
         {
             objectColor = ObjectColor.Green;
@@ -39,7 +41,7 @@ namespace DefaultNamespace
         {
             var cubeClone = 
                 Instantiate(materialChangerPrefab, 
-                    modelRoot.position + new Vector3(0, cubes.Count * .8f, 0), 
+                    modelRoot.position + new Vector3(0, cubes.Count * 1, 0), 
                     modelRoot.rotation, modelRoot);
             cubeClone.ChangeMaterial(objectColor);
             cubes.Add(cubeClone);
@@ -70,7 +72,7 @@ namespace DefaultNamespace
            {
                if (otherCube.ObjectColor == objectColor)
                {
-                   for (int i = 0; i < otherCube.objectNumber; i++)
+                   for (int i = 0; i < otherCube.ObjectNumber; i++)
                    {
                        CreateNewStack();
                        CubeCountText();
@@ -79,7 +81,7 @@ namespace DefaultNamespace
                }
                else
                {
-                   for (int i = 0; i < otherCube.objectNumber; i++)
+                   for (int i = 0; i < otherCube.ObjectNumber; i++)
                    {
                        DeleteCube();
                        CubeCountText();

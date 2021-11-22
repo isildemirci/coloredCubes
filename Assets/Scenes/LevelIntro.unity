@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 6096fcec28f7e416180b2d1277de94ac, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -179,6 +179,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
+      propertyPath: numberofObjects
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
       propertyPath: collectibleColor
       value: 1
       objectReference: {fileID: 0}
@@ -241,6 +245,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
       propertyPath: NumberofObjects
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
+      propertyPath: numberofObjects
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8726420989749373518, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
@@ -389,6 +397,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
+      propertyPath: numberofObjects
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
       propertyPath: collectibleColor
       value: 0
       objectReference: {fileID: 0}
@@ -456,6 +468,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
       propertyPath: NumberofObjects
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
+      propertyPath: numberofObjects
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8726420989749373518, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
@@ -604,6 +620,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
+      propertyPath: numberofObjects
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
       propertyPath: collectibleColor
       value: 1
       objectReference: {fileID: 0}
@@ -668,6 +688,10 @@ PrefabInstance:
       propertyPath: NumberofObjects
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
+      propertyPath: numberofObjects
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8726420989749373518, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
       propertyPath: m_Name
       value: Collectible
@@ -727,6 +751,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
       propertyPath: NumberofObjects
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
+      propertyPath: numberofObjects
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
@@ -953,6 +981,10 @@ PrefabInstance:
       propertyPath: NumberofObjects
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
+      propertyPath: numberofObjects
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8726420989749373518, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
       propertyPath: m_Name
       value: Collectible (2)
@@ -1173,6 +1205,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
+      propertyPath: numberofObjects
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
       propertyPath: collectibleColor
       value: 0
       objectReference: {fileID: 0}
@@ -1315,6 +1351,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
+      propertyPath: numberofObjects
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
       propertyPath: collectibleColor
       value: 0
       objectReference: {fileID: 0}
@@ -1380,6 +1420,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
+      propertyPath: numberofObjects
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
       propertyPath: collectibleColor
       value: 0
       objectReference: {fileID: 0}
@@ -1442,6 +1486,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
       propertyPath: NumberofObjects
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}
+      propertyPath: numberofObjects
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8726420989749373513, guid: 11eeeb9c00df147cdb23c46b72136d9a, type: 3}

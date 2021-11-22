@@ -17,8 +17,8 @@ namespace DefaultNamespace
         [SerializeField] private ObjectColor collectibleColor;
         public ObjectColor ObjectColor => collectibleColor;
         
-        [SerializeField] private int NumberofObjects;
-        public int objectNumber => NumberofObjects;
+        [SerializeField] private int numberofObjects;
+        public int ObjectNumber => numberofObjects;
        
         private void Awake()
         {
@@ -49,11 +49,11 @@ namespace DefaultNamespace
         
         public void CreateNewCollectible()
         {
-            for (int i = 0; i < NumberofObjects; i++)
+            for (int i = 0; i < numberofObjects; i++)
             {
                 var collectibleClone = 
                     Instantiate(collectiblePrefab, 
-                        modelRoot.position + new Vector3(0, i * .8f, 0), 
+                        modelRoot.position + new Vector3(0, i * 1, 0), 
                         modelRoot.rotation, modelRoot);
                 collectibleClone.ChangeMaterial(collectibleColor);
                 collectibles.Add(collectibleClone);
